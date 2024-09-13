@@ -1,3 +1,5 @@
+* {padding: 0;}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -29,7 +31,7 @@ h1 {
 #box {
     width: 150px;
     height: 150px;
-    background-image: url('assests/donald.png');
+    background-image: url('assets/donald.png');
     background-size: cover;
     background-position-x: -20px;
     background-position-y: 10px;
@@ -65,4 +67,24 @@ h1 {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+}
+
+#start {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.best {
+    border: 1px solid black/* Remove me!*/
+}
+
+#best-lst {
+    list-style-type: none;
+    width: 20rem;
+    height: 40rem;
+}
+
+.res-img {
+    width: 100vw;
+    height: 100vh;
 }
